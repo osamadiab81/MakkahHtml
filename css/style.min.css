@@ -102,7 +102,7 @@ h4,
 h5,
 h6 {
   color: #333;
-  font-family: roboto;
+  font-family: "Tajawal", sans-serif;
 }
 h1 a,
 h2 a,
@@ -152,6 +152,27 @@ p {
   line-height: 24px;
   margin-bottom: 24px;
 }
+.carousel-caption h6 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(239, 187, 32) ;
+  line-height: inherit;
+}
+.carousel-caption p {
+  font-size: 1rem;
+  line-height: normal;
+  font-weight: bold;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: #17735436;}
+
 strong {
   font-weight: 600;
 }
@@ -6903,6 +6924,9 @@ a {
 .overlay-black-light:after,
 .overlay-black-middle:after {
   background: #000;
+}
+.overlay-primary {
+  background-color: #177354;
 }
 .overlay-gradient-dark:after,
 .overlay-gradient-light:after,

@@ -7735,7 +7735,7 @@ a,
 .overlay-primary-light:after,
 .overlay-primary-middle:after,
 .overlay-primary-dark:after {
-    background: ;
+    background: #FFF;
 }
 .overlay-black-light:after {
     opacity: 0.3;
