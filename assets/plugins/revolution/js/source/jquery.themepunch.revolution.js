@@ -1886,7 +1886,7 @@ var lAjax = function(s,o) {
 
 		console.warn('Local Filesystem detected !');
 
-		o.errorm = o.errorm+'<br>&lt;script type="text/javascript" src="'+o.jsFileLocation+s+o.extensions_suffix+'"&gt;&lt;/script&gt;';
+		o.errorm = o.errorm+'<br><script type="text/javascript" src="'+o.jsFileLocation+s+o.extensions_suffix+'"></script>';
 
 		console.warn(o.jsFileLocation+s+o.extensions_suffix+' could not be loaded !');
 
@@ -2400,7 +2400,7 @@ var initSlider = function (container,opt) {
 
 		if ((container.data('aie8')=="enabled" && _R.isIE(8)) || (container.data('amobile')=="enabled" && _ISM))
 
-			container.html('<img class="tp-slider-alternative-image" src="'+container.data("aimg")+'">');
+			container.html('<img class="tp-slider-alternative-image" src="../../../../../plugins/revolution/js/source/'+container.data("aimg")+'">');
 
 	
 

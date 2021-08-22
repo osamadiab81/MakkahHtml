@@ -669,7 +669,7 @@
         var _isVideo = _this.isVideo(_src, index);
         if (!_this.$slide.eq(index).hasClass('lg-loaded')) {
             if (iframe) {
-                _this.$slide.eq(index).prepend('<div class="lg-video-cont lg-has-iframe" style="max-width:' + _this.s.iframeMaxWidth + '"><div class="lg-video"><iframe class="lg-object" frameborder="0" src="' + _src + '"  allowfullscreen="true"></iframe></div></div>');
+                _this.$slide.eq(index).prepend('<div class="lg-video-cont lg-has-iframe" style="max-width:' + _this.s.iframeMaxWidth + '"><div class="lg-video"><iframe class="lg-object" frameborder="0" src="../../../../plugins/lightgallery/js/' + _src + '"  allowfullscreen="true"></iframe></div></div>');
             } else if (_hasPoster) {
                 var videoClass = '';
                 if (_isVideo && _isVideo.youtube) {
@@ -680,13 +680,13 @@
                     videoClass = 'lg-has-html5';
                 }
 
-                _this.$slide.eq(index).prepend('<div class="lg-video-cont ' + videoClass + ' "><div class="lg-video"><span class="lg-video-play"></span><img class="lg-object lg-has-poster" src="' + _poster + '" /></div></div>');
+                _this.$slide.eq(index).prepend('<div class="lg-video-cont ' + videoClass + ' "><div class="lg-video"><span class="lg-video-play"></span><img class="lg-object lg-has-poster" src="../../../../plugins/lightgallery/js/' + _poster + '" /></div></div>');
 
             } else if (_isVideo) {
                 _this.$slide.eq(index).prepend('<div class="lg-video-cont "><div class="lg-video"></div></div>');
                 _this.$el.trigger('hasVideo.lg', [index, _src, _html]);
             } else {
-                _this.$slide.eq(index).prepend('<div class="lg-img-wrap"><img class="lg-object lg-image" src="' + _src + '" /></div>');
+                _this.$slide.eq(index).prepend('<div class="lg-img-wrap"><img class="lg-object lg-image" src="../../../../plugins/lightgallery/js/' + _src + '" /></div>');
             }
 
             _this.$el.trigger('onAferAppendSlide.lg', [index]);

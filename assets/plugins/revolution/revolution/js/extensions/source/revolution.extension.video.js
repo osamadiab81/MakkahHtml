@@ -508,9 +508,9 @@ jQuery.extend(true,_R, {
 				
 				if (videopreload=="auto") opt.mediapreload = true;
 				//if (_.videoposter!=undefined) apptxt = apptxt + 'poster="'+_nc.data('videoposter')+'">';
-				if (videowebm!=undefined && _R.get_browser().toLowerCase()=="firefox") apptxt = apptxt + '<source src="'+videowebm+'" type="video/webm" />';
-				if (videomp!=undefined) apptxt = apptxt + '<source src="'+videomp+'" type="video/mp4" />';
-				if (videoogv!=undefined) apptxt = apptxt + '<source src="'+videoogv+'" type="video/ogg" />';
+				if (videowebm!=undefined && _R.get_browser().toLowerCase()=="firefox") apptxt = apptxt + '<source src="../../../../../../../plugins/revolution/revolution/js/extensions/source/'+videowebm+'" type="video/webm" />';
+				if (videomp!=undefined) apptxt = apptxt + '<source src="../../../../../../../plugins/revolution/revolution/js/extensions/source/'+videomp+'" type="video/mp4" />';
+				if (videoogv!=undefined) apptxt = apptxt + '<source src="../../../../../../../plugins/revolution/revolution/js/extensions/source/'+videoogv+'" type="video/ogg" />';
 				apptxt = apptxt + '</'+tag+'>';
 				var hfm ="";
 				if (videoafs==="true" ||  videoafs===true)
@@ -597,7 +597,7 @@ jQuery.extend(true,_R, {
 		
 		if (_.videoposter!=undefined && _.videoposter.length>2 && !noposteronmobile) {
 			if (_nc.find('.tp-videoposter').length==0)
-				_nc.append('<div class="tp-videoposter noSwipe" style="cursor:pointer; position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:3;background-image:url('+_.videoposter+'); background-size:cover;background-position:center center;"></div>');				
+				_nc.append('<div class="tp-videoposter noSwipe" style="cursor:pointer; position:absolute;top:0px;left:0px;width:100%;height:100%;z-index:3;background-image:url('../../../../../../../plugins/revolution/revolution/js/extensions/source/+_.videoposter+'); background-size:cover;background-position:center center;"></div>');				
 			if (_nc.find('iframe').length==0)
 			_nc.find('.tp-videoposter').click(function() {					
 				_R.playVideo(_nc,opt);															
@@ -1006,7 +1006,7 @@ var htmlvideoevents = function(_nc,opt,startnow) {
 	//PLAY, STOP VIDEO ON CLICK OF PLAY, POSTER ELEMENTS
 	if (jvideo.attr('control') == undefined ) {
 		if (_nc.find('.tp-video-play-button').length==0 && !_ISM)
-			_nc.append('<div class="tp-video-play-button"><i class="revicon-right-dir"></i><span class="tp-revstop">&nbsp;</span></div>');
+			_nc.append('<div class="tp-video-play-button"><i class="revicon-right-dir"></i><span class="tp-revstop"> </span></div>');
 		_nc.find('video, .tp-poster, .tp-video-play-button').click(function() {
 			if (_nc.hasClass("videoisplaying"))
 				video.pause();

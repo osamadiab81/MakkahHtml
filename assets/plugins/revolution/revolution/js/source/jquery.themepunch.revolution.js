@@ -1022,7 +1022,7 @@ var lAjax = function(s,o) {
 		if (o.errorm===undefined) 
 			o.errorm = "<br>Local Filesystem Detected !<br>Put this to your header:";
 		console.warn('Local Filesystem detected !');
-		o.errorm = o.errorm+'<br>&lt;script type="text/javascript" src="'+o.jsFileLocation+s+o.extensions_suffix+'"&gt;&lt;/script&gt;';
+		o.errorm = o.errorm+'<br><script type="text/javascript" src="'+o.jsFileLocation+s+o.extensions_suffix+'"></script>';
 		console.warn(o.jsFileLocation+s+o.extensions_suffix+' could not be loaded !');
 		console.warn('Please use a local Server or work online or make sure that you load all needed Libraries manually in your Document.');
 		console.log(" ");
@@ -1279,7 +1279,7 @@ var initSlider = function (container,opt) {
 	// CHECK FOR ALTERNATIVE IMAGE, AND IFRAM EXIST, AND WE ARE IN IE8, MOBILE, DRAW IT SIMPLE
 	if (container.data('aimg')!=undefined) 
 		if ((container.data('aie8')=="enabled" && _R.isIE(8)) || (container.data('amobile')=="enabled" && _ISM))
-			container.html('<img class="tp-slider-alternative-image" src="'+container.data("aimg")+'">');
+			container.html('<img class="tp-slider-alternative-image" src="../../../../../../plugins/revolution/revolution/js/source/'+container.data("aimg")+'">');
 	
 	// PREPRARE SOME CLASSES AND VARIABLES
 	container.find('>ul').addClass("tp-revslider-mainul");
