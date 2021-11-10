@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,45 +7,96 @@
 	<meta name="author" content="" />
 	<meta name="robots" content="" />
 	<meta name="description" content="" />
-	<meta property="og:title" content="Constructzilla - Construction Template" />
+	<meta property="og:title" content="Constructzilla - Construction Template"/>
 	<meta property="og:description" content="" />
 	<meta property="og:image" content="" />
 	<meta name="format-detection" content="telephone=no">
-
+	
 	<!-- FAVICONS ICON -->
 	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
-
+	
 	<!-- PAGE TITLE HERE -->
 	<title>Constructzilla - Construction Template</title>
-
+	
 	<!-- MOBILE SPECIFIC -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	
 	<!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.min.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
-
+	<script src="assets/js/html5shiv.min.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	
 	<!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.min.css">
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/skin/skin-1.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/templete.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-rtl.css">
-	<style>
-		.carousel-fade .carousel-item {
-			background-color: red;
-		}
-	</style>
-
+	
 </head>
 
 <body id="bg">
 	<div id="loading-area"></div>
 	<div class="page-wraper">
 		<!-- header -->
-		<header class="site-header header mo-left header-style-1">
+	    <header class="site-header header mo-left header-style-1">
+			<!-- top bar -->
+			<div class="top-bar no-skew">
+				<div class="container">
+					<div class="row d-flex justify-content-between">
+						<div class="dez-topbar-left">
+							<ul class="social-bx list-inline pull-left">
+								<li><a href="javascript:void(0);" ><i class="fa fa-phone"></i> +966 012 572 2727</a></li>
+								<li><a href="javascript:void(0);" class="fa fa-envelope"></a> info@example.com</li>
+							</ul>
+						</div>
+						<!-- <div class="dez-topbar-center my-auto">
+							<form class="d-flex justify-content-center">
+								
+								<div class="col-lg-auto col-md-auto my-auto">                    
+								<label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+								<div class="input-group">
+								<div class="input-group-prepend">
+								<div class="input-group-text">@</div>
+								</div>
+								<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="اسم المستخدم">
+								</div>
+							</div>
+							<div class="col-lg-auto col-md-auto px-1 my-auto">                    
+			
+								<div class="form-group my-auto">
+									<div class="input-group my-auto">
+										<input name="dzName" type="password" required="" class="form-control my-auto" placeholder="كلمة السر">
+									</div>
+								</div>    
+								</div>                      
+					   
+			
+								<div class="col-lg-auto col-md-auto px-1 my-auto">                    
+			
+								<div class="form-group my-auto">
+			
+								<button type="submit" class="site-button form-control">Submit</button>
+								</div>
+								</div>
+							</form>
+							  
+						</div> -->
+						<div class="dez-topbar-right">
+							<ul class="social-bx list-inline pull-right">
+								<li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+								<li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+								<li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+								<li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
+								<li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
+								<li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- top bar END-->
 			<!-- main header -->
 			<div class="sticky-header main-bar-wraper navbar-expand-lg">
 				<div class="main-bar clearfix ">
@@ -54,13 +104,11 @@
 						<!-- website logo -->
 						<div class="logo-header mostion dark">
 							<a href="index.html">
-								<img src="images/logo-black.png" width="193" height="89" alt="">
+								<img src="assets/images/e-logo-01.svg" width="193" height="89" alt="">
 							</a>
 						</div>
 						<!-- nav toggle button -->
-						<button class="navbar-toggler collapsed navicon justify-content-end" type="button"
-							data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-							aria-expanded="false" aria-label="Toggle navigation">
+						<button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span></span>
 							<span></span>
 							<span></span>
@@ -68,242 +116,83 @@
 						<!-- extra nav -->
 						<div class="extra-nav">
 							<div class="extra-cell">
-								<button id="quik-search-btn" type="button" class="site-button"><i
-										class="fa fa-search"></i></button>
+								<button id="quik-search-btn" type="button" class="site-button"><i class="fa fa-search"></i></button>
 							</div>
 						</div>
 						<!-- Quik search -->
 						<div class="dez-quik-search bg-primary">
 							<form action="#">
-								<input name="search" value="" type="text" class="form-control"
-									placeholder="Type to search">
-								<span id="quik-search-remove"><i class="fa fa-remove"></i></span>
+								<input name="search" value="" type="text" class="form-control" placeholder="البحث">
+								<span  id="quik-search-remove"><i class="fa fa-remove"></i></span>
 							</form>
 						</div>
 						<!-- main nav -->
-						<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-							<ul class=" nav navbar-nav">
-								<li class="active"> <a href="javascript:;">Home<i class="fa fa-chevron-down"></i></a>
-									<ul class="sub-menu">
-										<li><a href="index.html">Home 1</a></li>
-										<li><a href="index-2.html">Home 2</a></li>
-										<li><a href="index.html">Home 3</a></li>
-										<li><a href="index-4.html">Home 4</a></li>
-										<li><a href="index-5.html">Home 5</a></li>
-										<li><a href="index-6.html">Home 6</a></li>
-										<li><a href="index-7.html">Home 7</a></li>
-										<li><a href="index-8.html">Home 8</a></li>
-										<li><a href="index-9.html">Home 9 </a></li>
-										<li><a href="index-10.html">Home 10 </a></li>
-										<li><a href="index-11.html">Home 11 </a></li>
-										<li><a href="index-12.html">Home 12 </a></li>
-									</ul>
-								</li>
-								<li> <a href="javascript:;">Features<i class="fa fa-chevron-down"></i></a>
-									<ul class="sub-menu">
-										<li> <a href="javascript:;">Header <span class="tag-new">New</span></a>
-											<ul class="sub-menu">
-												<li><a href="header-style-1.html">Header 1</a></li>
-												<li><a href="header-style-2.html">Header 2</a></li>
-												<li><a href="header-style-3.html">Header 3</a></li>
-												<li><a href="header-style-4.html">Header 4</a></li>
-												<li><a href="header-style-5.html">Header 5</a></li>
-												<li><a href="header-style-6.html">Header 6 <span
-															class="tag-new">New</span></a></li>
-												<li><a href="header-style-7.html">Header 7 <span
-															class="tag-new">New</span></a></li>
-											</ul>
-										</li>
-										<li> <a href="javascript:;">Footer</a>
-											<ul class="sub-menu">
-												<li><a href="footer-fixed.html">Footer Fixed</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="has-mega-menu "> <a href="javascript:;">Pages<i
-											class="fa fa-chevron-down"></i></a>
+						<div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
+							<ul class="nav navbar-nav">
+								<li class="active"> <a href="javascript:;">الرئيسية<i class="fa fa-chevron-down"></i></a></li>
+								<li class="has-mega-menu"> <a href="javascript:;">الإمارة<i class="fa fa-chevron-down"></i></a>
 									<ul class="mega-menu">
-										<li> <a href="javascript:;">Pages</a>
+										<li>
 											<ul>
-												<li><a href="about-1.html">About us 1</a></li>
-												<li><a href="about-2.html">About us 2</a></li>
-												<li><a href="faq.html">FAQ</a> </li>
-												<li><a href="project.html">Project <span class="tag-new">New</span></a>
-												</li>
-												<li><a href="project-details.html">Project Details <span
-															class="tag-new">New</span></a></li>
-												<li><a href="all-service.html">All Service </a></li>
-												<li><a href="architecture.html">Architecture </a></li>
-												<li><a href="big-projects.html">Big Projects </a></li>
-												<li><a href="construction.html">Construction </a></li>
-												<li><a href="consulting.html">Consulting </a></li>
-												<li><a href="concrete-transport.html">Concrete Transport </a></li>
-
+												<li><a href="full-page-gallery-light.html">الأخبار</a></li>
+												<li><a href="gallery-grid-2.html">الهيكل التنظيمي</a></li>
+												<li><a href="gallery-grid-3.html">دليل الإجراءات</a></li>
+												<li><a href="gallery-grid-4.html">مجلة مكة</a></li>
 											</ul>
 										</li>
-										<li> <a href="javascript:;">Pages</a>
+										<li>
 											<ul>
-												<li><a href="renovations.html">Renovations </a></li>
-												<li><a href="services-1.html">Services 1 </a></li>
-												<li><a href="services-2.html">Services 2</a></li>
-												<li><a href="services-3.html">Services 3</a></li>
-												<li><a href="career.html">Career</a></li>
-												<li><a href="who-we-are.html">Who we are</a></li>
-												<li><a href="portfolio-1.html">Portfolio 1</a></li>
-												<li><a href="portfolio-2.html">Portfolio 2</a></li>
-												<li><a href="portfolio-3.html">Portfolio 3</a></li>
-												<li><a href="portfolio-details.html">portfolio-details</a></li>
-												<li><a href="full-page-gallery-dark.html">Gallery Full Page Style 1</a>
-												</li>
-
-											</ul>
-										</li>
-										<li> <a href="javascript:;">Pages</a>
-											<ul>
-												<li><a href="full-page-gallery-light.html">Gallery Full Page Style 2</a>
-												</li>
-												<li><a href="gallery-grid-2.html">Galley Grid 2</a></li>
-												<li><a href="gallery-grid-3.html">Galley Grid 3</a></li>
-												<li><a href="gallery-grid-4.html">Galley Grid 4</a></li>
-												<li><a href="error-403.html">Error 403</a></li>
-												<li><a href="error-404.html">Error 404</a></li>
-												<li><a href="error-405.html">Error 405</a></li>
-												<li><a href="coming-soon-1.html">Coming Soon 1</a></li>
-												<li><a href="coming-soon-2.html">Coming Soon 2</a></li>
-												<li><a href="coming-soon-3.html">Coming Soon 3</a></li>
-												<li><a href="coming-soon-4.html">Coming Soon 4</a></li>
-											</ul>
-										</li>
-										<li> <a href="javascript:;">Pages</a>
-											<ul>
-												<li><a href="coming-soon-5.html">Coming Soon 5</a></li>
-												<li><a href="coming-soon-6.html">Coming Soon 6</a></li>
-												<li><a href="coming-soon-7.html">Coming Soon 7</a></li>
-												<li><a href="coming-soon-8.html">Coming Soon 8</a></li>
-												<li><a href="coming-soon-9.html">Coming Soon 9</a></li>
-												<li><a href="login-1.html">Login 1</a></li>
-												<li><a href="login-2.html">Login 2</a></li>
-												<li><a href="login-3.html">Login 3</a></li>
-												<li><a href="login-4.html">Login 4</a></li>
-												<li><a href="login-5.html">Login 5</a></li>
-												<li><a href="login-6.html">Login 6</a></li>
+												<li><a href="coming-soon-5.html">أمراء منطقة مكة</a></li>
+												<li><a href="coming-soon-6.html">ملتقى مكة الثقافي</a></li>
+												<li><a href="coming-soon-7.html">هيئة تطوير منطقة مكة</a></li>
+												<li><a href="coming-soon-8.html">جائزة مكة للتميز</a></li>
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li> <a href="javascript:;">Shop<i class="fa fa-chevron-down"></i></a>
+	
+								<li> <a href="javascript:;">الخدمات الإلكترونية<i class="fa fa-chevron-down"></i></a>
 									<ul class="sub-menu">
-										<li><a href="product.html">Product </a></li>
-										<li><a href="product-2.html">Product 2 </a></li>
-										<li><a href="product-details.html">Product details</a></li>
-										<li><a href="my-account.html">My Account <span class="tag-new">New</span></a>
-										</li>
-										<li><a href="wishlist.html">Wishlist <span class="tag-new">New</span></a></li>
-										<li><a href="shopping-cart.html">Shopping Cart <span
-													class="tag-new">New</span></a></li>
+										<li><a href="index.html">استعلام عن معاملة</a></li>
+										<li><a href="index-2.html">خدمة تواصل الإلكترونية</a></li>
+										<li><a href="index.html">التحقق من وثائق منسوبي إمارة مكة</a></li>
 									</ul>
 								</li>
-								<li class="has-mega-menu "> <a href="javascript:;">Blog<i
-											class="fa fa-chevron-down"></i></a>
+	
+								<li class="has-mega-menu "> <a href="javascript:;">المحافظات <i class="fa fa-chevron-down"></i></a>
 									<ul class="mega-menu">
-										<li> <a href="javascript:;">Default</a>
+										<li>
 											<ul>
-												<li><a href="blog-half-img.html">Half image</a></li>
-												<li><a href="blog-half-img-sidebar.html">Half image sidebar</a></li>
-												<li><a href="blog-half-img-left-sidebar.html">Half image sidebar
-														left</a></li>
-												<li><a href="blog-large-img.html">Large image</a></li>
-												<li><a href="blog-large-img-sidebar.html">Large image sidebar</a></li>
-												<li><a href="blog-large-img-left-sidebar.html">Large image sidebar
-														left</a></li>
+												<li><a href="about-1.html">مكة المكرمة</a></li>
+												<li><a href="about-2.html">محافظة جدة</a></li>
+												
 											</ul>
 										</li>
-										<li> <a href="javascript:;">Grid</a>
+										<li>
 											<ul>
-												<li><a href="blog-grid-2.html">Grid 2</a></li>
-												<li><a href="blog-grid-2-sidebar.html">Grid 2 sidebar</a></li>
-												<li><a href="blog-grid-2-sidebar-left.html">Grid 2 sidebar left</a></li>
-												<li><a href="blog-grid-3.html">Grid 3</a></li>
-												<li><a href="blog-grid-3-sidebar.html">Grid 3 sidebar</a></li>
-												<li><a href="blog-grid-3-sidebar-left.html">Grid 3 sidebar left</a></li>
-												<li><a href="blog-grid-4.html">Grid 4</a></li>
+												<li><a href="about-1.html">مكة المكرمة</a></li>
+												<li><a href="about-2.html">محافظة جدة</a></li>
+												
 											</ul>
 										</li>
-										<li> <a href="javascript:;">Single</a>
+										<li>
 											<ul>
-												<li><a href="blog-single.html">Single</a></li>
-												<li><a href="blog-single-sidebar.html">Single sidebar</a></li>
-												<li><a href="blog.html">Single sidebar right</a></li>
+												<li><a href="about-1.html">مكة المكرمة</a></li>
+												<li><a href="about-2.html">محافظة جدة</a></li>
+												
 											</ul>
 										</li>
-										<li> <a href="javascript:;">Full Page Blog</a>
+										<li>
 											<ul>
-												<li><a href="blog-full-grid-dark-style-1.html">Dark Style 1</a></li>
-												<li><a href="blog-full-grid-dark-style-2.html">Dark Style 2</a></li>
-												<li><a href="blog-full-grid-dark-style-3.html">Dark Style 3</a></li>
-												<li><a href="blog-full-grid-light-style-1.html">Light Style 1</a></li>
-												<li><a href="blog-full-grid-light-style-2.html">Light Style 2</a></li>
-												<li><a href="blog-full-grid-light-style-3.html">Light Style 3</a></li>
+												<li><a href="about-1.html">مكة المكرمة</a></li>
+												<li><a href="about-2.html">محافظة جدة</a></li>
+												
 											</ul>
 										</li>
 									</ul>
 								</li>
-								<li class="has-mega-menu "> <a href="javascript:;">Shortcodes<i
-											class="fa fa-chevron-down"></i></a>
-									<ul class="mega-menu">
-										<li> <a href="javascript:;">Shortcodes</a>
-											<ul>
-												<li><a href="shortcode-buttons.html">Buttons <span
-															class="tag-new">New</span></a></li>
-												<li><a href="shortcode-icon-box-styles.html">Icon box styles</a></li>
-												<li><a href="shortcode-pricing-table.html">Pricing table</a></li>
-												<li><a href="shortcode-toggles.html">Toggles</a></li>
-												<li><a href="shortcode-team.html">Team <span
-															class="tag-new">New</span></a></li>
-											</ul>
-										</li>
-										<li> <a href="javascript:;">Shortcodes</a>
-											<ul>
-												<li><a href="shortcode-carousel-sliders.html">Carousel sliders</a></li>
-												<li><a href="shortcode-image-box-content.html">Image box content</a>
-												</li>
-												<li><a href="shortcode-tabs.html">Tabs</a></li>
-												<li><a href="shortcode-counters.html">Counters</a></li>
-												<li><a href="shortcode-light-box.html">Light Gallery <span
-															class="tag-new">New</span></a></li>
-											</ul>
-										</li>
-										<li> <a href="javascript:;">Shortcodes</a>
-											<ul>
-												<li><a href="shortcode-accordians.html">Accordians</a></li>
-												<li><a href="shortcode-dividers.html">Dividers</a></li>
-												<li><a href="shortcode-images-effects.html">Images effects</a></li>
-												<li><a href="shortcode-testimonials.html">Testimonials <span
-															class="tag-new">New</span></a></li>
-												<li><a href="shortcode-magnific-popup.html">Magnific Gallery <span
-															class="tag-new">New</span></a></li>
-											</ul>
-										</li>
-										<li> <a href="javascript:;">Shortcodes</a>
-											<ul>
-												<li><a href="shortcode-alert-box.html">Alert box</a></li>
-												<li><a href="shortcode-icon-box.html">Icon-box</a></li>
-												<li><a href="shortcode-list-group.html">List group</a></li>
-												<li><a href="shortcode-title-separators.html">title-separators</a></li>
-												<li><a href="shortcode-all-widgets.html">Widgets</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li> <a href="javascript:;">Contact us <i class="fa fa-chevron-down"></i></a>
-									<ul class="sub-menu">
-										<li><a href="contact.html">Contact us 1</a></li>
-										<li><a href="contact-2.html">Contact us 2</a></li>
-										<li><a href="contact-3.html">Contact us 3</a></li>
-										<li><a href="contact-4.html">Contact us 4</a></li>
-									</ul>
-								</li>
+							
+							 
 							</ul>
 						</div>
 					</div>
@@ -517,79 +406,106 @@
 			<!-- Our Services -->
 			<div class="section-full bg-white content-inner">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-4 col-md-6 col-sm-6 dez-team">
-							<div class="dez-box">
-								<div class="dez-media dez-media-left dez-img-overlay6 dez-img-effect ">
-									<img src="./assets/images/prince_khaleed.jpg" alt="">
+					<div class="blog-post blog-single">
+						<div class="dez-post-text">
+							<img class="alignleft" width="300" src="./assets/images/prince_khaleed.jpg" alt="">
+							<div class="dez-post-title">
+                                <h3 class="post-title text-primary">الأمير خالد الفيصل</h3>
+								<h6 class="text-green">مستشار خادم الحرمين الشريفين
+									- أمير منطقة مكة المكرمة
+									 - رئيس مجلس المنطقة
+									</h6>
+                            </div>
+							<p>بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
+								بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن .
 
-								</div>
-								<div class="bg-primary text-center py-3 ">
-									<h6 class="text-golden">الأمير خالد الفيصل</h6>
-									<span class="dez-member-position">مستشار خادم الحرمين الشريفين<br>
-										أمير منطقة مكة المكرمة -
-										رئيس مجلس المنطقة</span>
-								</div>
-							</div>
+
+							</p>
+								<div class="clear"></div>
+							<div class="dez-divider bg-gray-dark p-0 m-0"></div>
+						
+							<img class="alignright" width="200" src="./assets/images/prince_badr.jpg" alt="">
+							<div class="dez-post-title">
+                                <h3 class="post-title text-primary">صاحب السمو الملكي بدر بن سلطان بن عبدالعزيز</h3>
+								<h6 class="text-green">نائب أمير منطقة مكة المكرمة
+									- نائب رئيس مجلس المنطقة
+									 - رئيس اللجنة التنفيذية
+								</h6>
+                            </div>
+							<p>أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك لتحقيق اهداف التنمية المناطقية.
+								أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك لتحقيق اهداف التنمية المناطقية.
+								أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك لتحقيق اهداف التنمية المناطقية.
+								أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك لتحقيق اهداف التنمية المناطقية.
+								أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك لتحقيق اهداف التنمية المناطقية.
+								أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك لتحقيق اهداف التنمية المناطقية.
+							</p>
+								<div class="clear"></div>
+								<div class="dez-divider bg-gray-dark p-0 m-0"></div>
+	
 						</div>
+						<img class="alignleft" width="150" src="./assets/images/vice.jpg" alt="">
+						<div class="dez-post-title">
+							<h3 class="post-title text-primary">مشبب بن عايض القحطاني</h3>
+							<h6 class="text-green">معالي وكيل إمارة منطقة مكة المكرمة
 
-						<div class="col-lg-4 col-md-6 col-sm-6 dez-team">
-							<div class="dez-box">
-								<div class="dez-media dez-media-left dez-img-overlay6 dez-img-effect ">
-									<img src="./assets/images/prince_badr.jpg" alt="">
-
-								</div>
-								<div class="bg-primary text-center py-3 ">
-									<h6 class="text-golden">صاحب السمو الملكي بدر بن سلطان بن عبدالعزيز</h6>
-									<span class="dez-member-position">نائب أمير منطقة مكة المكرمة<br>
-										نائب رئيس مجلس المنطقة -
-										رئيس اللجنة التنفيذية</span>
-								</div>
-							</div>
+							</h6>
 						</div>
-
-						<div class="col-lg-4 col-md-6 col-sm-6 dez-team">
-							<div class="dez-box">
-								<div class="dez-media dez-media-left dez-img-overlay6 dez-img-effect ">
-									<img src="./assets/images/vice.jpg" alt="">
-
-								</div>
-								<div class="bg-primary text-center py-3 ">
-									<h6 class="text-golden">مشبب بن عايض القحطاني</h6>
-									<span class="dez-member-position">معالي وكيل إمارة منطقة مكة المكرمة</span>
-								</div>
-							</div>
-						</div>
+						<p>الانتماء ، العمل التكاملي المميز ، النزاهة ، الاستقلالية ، التعلم المستمر والابتكار واستقبال المبادرات ومتابعة الأداء .
+							الانتماء ، العمل التكاملي المميز ، النزاهة ، الاستقلالية ، التعلم المستمر والابتكار واستقبال المبادرات ومتابعة الأداء .
+							الانتماء ، العمل التكاملي المميز ، النزاهة ، الاستقلالية ، التعلم المستمر والابتكار واستقبال المبادرات ومتابعة الأداء .
+							الانتماء ، العمل التكاملي المميز ، النزاهة ، الاستقلالية ، التعلم المستمر والابتكار واستقبال المبادرات ومتابعة الأداء .
+							الانتماء ، العمل التكاملي المميز ، النزاهة ، الاستقلالية ، التعلم المستمر والابتكار واستقبال المبادرات ومتابعة الأداء .
+						</p>
 					</div>
-					
 				</div>
 			</div>
-			<!-- Our Services END-->
-			<!-- Our Awesome Services -->
+		
+			<div class="section-full bg-img-fix p-tb40 overlay-primary-dark get-a-quote" style="background-image:url(images/background/bg4.jpg);">
+				
+			</div>
+
 			<div class="section-full bg-gray content-inner">
 				<div class="container">
 					<div class="section-content">
 						<div class="row">
 							<div class="col-md-4 col-lg-4 col-sm-4 text-center">
-								<h3 class="m-t0 m-b15">الرؤية</h3>
-								<p>بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن</p>
+								<div class="icon-bx-wraper bx-style-2 bg-white m-3 p-3">
+								<h3 class="text-green">الرؤية</h3>
+								<p>بناء الإنسان وتنمية المكان بعين مسؤوله تجاه وطن ومواطن وضيف الرحمن
+									<br>&nbsp;
+								</p>
+							</div>
 							</div>
 							<div class="col-md-4 col-lg-4 col-sm-4 text-center">
-								<h3 class="m-t0 m-b15">الرسالة</h3>
+								<div class="icon-bx-wraper bx-style-2 bg-white m-3 p-3">
+								<h3 class="text-green">الرسالة</h3>
 								<p>أقرار أعمال النفع العام لمواطني المنطقة ، وتشجيع اسهام المواطنين والقطاع الخاص في ذلك
 									لتحقيق اهداف التنمية المناطقية</p>
+								</div>
 							</div>
 							<div class="col-md-4 col-lg-4 col-sm-4 text-center">
-								<h3 class="m-t0 m-b15">القيم</h3>
+								<div class="icon-bx-wraper bx-style-2 bg-white m-3 p-3">
+								<h3 class="text-green">القيم</h3>
 								<p>الانتماء ، العمل التكاملي المميز ، النزاهة ، الاستقلالية ، التعلم المستمر والابتكار
 									واستقبال المبادرات ومتابعة الأداء </p>
+							</div>
 							</div>
 						</div>
 					</div>
 					<div class="section-content">
-						<div class="p-4 bg-white">
+						<div class="p-4">
 							<div class="inner-haed">
-								<h3 class="text-uppercase">الأهداف</h3>
+								<h3 class="text-green">الأهداف</h3>
 							</div>
 							<div class="section-content">
 								<div class="row">
@@ -613,7 +529,7 @@
 							</div>
 							<hr>
 							<div class="inner-haed">
-								<h3 class="text-uppercase">المهام</h3>
+								<h3 class="text-green">المهام</h3>
 							</div>
 							<div class="section-content">
 								<div class="row">
@@ -626,18 +542,15 @@
 							</div>
 						</div>
 					</div>
-
-				
-					
 				</div>
 			</div>
 
 				<div class="container">
-					<div class="p-a30 bg-white m-b10">
+					<div class="p-a30 m-b10">
 						<div class="section-content">
 							<div class="row">
-								<div class="col-lg-6 col-md-6 m-b30">
-									<h4 class="text-uppercase m-t10">الوحدات الإدارية ومهامها</h4>
+								<div class="col-lg-6 col-md-6">
+									<h4 class="text-green">الوحدات الإدارية ومهامها</h4>
 									<div class="dez-accordion rounded space bg-title" id="accordion10">
 										<div class="panel">
 											<div class="acod-head">
@@ -747,8 +660,8 @@
 
 									</div>
 								</div>
-								<div class="col-lg-6 col-md-6 m-b30">
-									<h4 class="text-uppercase m-t10">لجان مجلس المنطقة ومهامها</h4>
+								<div class="col-lg-6 col-md-6">
+									<h4 class="text-green">لجان مجلس المنطقة ومهامها</h4>
 									<div class="dez-accordion rounded space bg-title" id="accordion11">
 										<div class="panel">
 											<div class="acod-head">
@@ -850,30 +763,19 @@
 													</div>
 											</div>
 										</div>
-										
-
-								
-							
-
 									</div>
 								</div>
 							</div>
-					
 						</div>
 					</div>
 				</div>
-			
-	
 			<div class="section-full bg-img-fix p-tb40 overlay-primary-dark get-a-quote"
 				style="background-image:url(images/background/bg4.jpg);">
-				
 			</div>
-			<!-- About Section End -->
-			<!-- Testimoniyal -->
 			<div class="section-full bg-img-fix content-inner overlay-white-dark"
 				style="background-image:url(images/background/bg5.jpg); margin-top:-1px">
 				<div class="container">
-				<div class="p-a30 bg-white m-b30">
+				<div class="bg-white">
 					<div class="section-head text-center">
                         <h5 class="text-uppercase">أعضاء مجلس المنطقة من الأهالي ورؤساء اللجان المنبثقة عن مجلس المنطقة
 						</h5>
@@ -884,151 +786,357 @@
                     <div class="section-content text-center ">
                         <div class="row">
                             <div class="col-lg-2 col-md-6 col-sm-6">
-                                <div class="dez-box m-b30">
+                                <div class="dez-box mb-3">
                                     <div class="dez-media">
 										<img src="./assets/images/fouadbenmohammed.jpg" alt="">
                                     </div>
-                                    <div class="p-a15">
-                                        <h4 class="dez-title m-b5 text-golden">Nashid Martines</h4>
-                                        <span class="dez-member-position">Director</span> </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / فؤاد بن محمد غزالي
+										</h6>
+                                        <span class="dez-member-position">معالي مستشار مجلس المنطقة رئيس لجنة التنمية العمرانية
+										</span> </div>
                                 </div>
                             </div>
 							<div class="col-lg-2 col-md-6 col-sm-6">
-                                <div class="dez-box m-b30">
+                                <div class="dez-box mb-3">
                                     <div class="dez-media">
-										<img src="./assets/images/fouadbenmohammed.jpg" alt="">
+										<img src="./assets/images/alqurashy.jpg" alt="">
                                     </div>
-                                    <div class="p-a15">
-                                        <h4 class="dez-title m-b5 text-golden">Nashid Martines</h4>
-                                        <span class="dez-member-position">Director</span> </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / محمد بن عبدالصمد القرشي
+										</h6>
+                                        <span class="dez-member-position">سعادة رئيس لجنة الخدمات والمرافق
+										</span> </div>
                                 </div>
                             </div>
 							<div class="col-lg-2 col-md-6 col-sm-6">
-                                <div class="dez-box m-b30">
+                                <div class="dez-box mb-3">
                                     <div class="dez-media">
-										<img src="./assets/images/fouadbenmohammed.jpg" alt="">
+										<img src="./assets/images/tareq.jpg" alt="">
                                     </div>
-                                    <div class="p-a15">
-                                        <h4 class="dez-title m-b5 text-golden">Nashid Martines</h4>
-                                        <span class="dez-member-position">Director</span> </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / طارق بن عبدالرحمن فقيه
+										</h6>
+                                        <span class="dez-member-position">سعادة رئيس لجنة متابعة تطوير العشوائيات
+										</span> </div>
                                 </div>
                             </div>
 							<div class="col-lg-2 col-md-6 col-sm-6">
-                                <div class="dez-box m-b30">
+                                <div class="dez-box mb-3">
                                     <div class="dez-media">
-										<img src="./assets/images/fouadbenmohammed.jpg" alt="">
+										<img src="./assets/images/ziad.jpg" alt="">
                                     </div>
-                                    <div class="p-a15">
-                                        <h4 class="dez-title m-b5 text-golden">Nashid Martines</h4>
-                                        <span class="dez-member-position">Director</span> </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / زياد بن محمد جمال فارسي
+										</h6>
+                                        <span class="dez-member-position">رئيس لجنة التنمية الاقتصادية
+										</span> </div>
                                 </div>
                             </div>
 							<div class="col-lg-2 col-md-6 col-sm-6">
-                                <div class="dez-box m-b30">
+                                <div class="dez-box mb-3">
                                     <div class="dez-media">
-										<img src="./assets/images/fouadbenmohammed.jpg" alt="">
+										<img src="./assets/images/yasser.jpg" alt="">
                                     </div>
-                                    <div class="p-a15">
-                                        <h4 class="dez-title m-b5 text-golden">Nashid Martines</h4>
-                                        <span class="dez-member-position">Director</span> </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / ياسر بن حسن سلامة
+										</h6>
+                                        <span class="dez-member-position">سعادة رئيس لجنة التنمية الثقافية والشبابية
+										</span> </div>
                                 </div>
                             </div>
 							<div class="col-lg-2 col-md-6 col-sm-6">
-                                <div class="dez-box m-b30">
+                                <div class="dez-box mb-3">
                                     <div class="dez-media">
-										<img src="./assets/images/fouadbenmohammed.jpg" alt="">
+										<img src="./assets/images/hany.jpg" alt="">
                                     </div>
-                                    <div class="p-a15">
-                                        <h4 class="dez-title m-b5 text-golden">Nashid Martines</h4>
-                                        <span class="dez-member-position">Director</span> </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / هاني بن عبدالعزيز ساب
+										</h6>
+                                        <span class="dez-member-position">سعادة رئيس لجنة التنمية الاجتماعية
+										</span> </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/rashed.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / راشد بن بخيت الغامدي
+										</h6>
+                                        <span class="dez-member-position">سعادة رئيس لجنة شؤون الأسرة
+										</span> </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/emad.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / عماد بن عبدالقادر المهيدب</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/moareg.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / معراج بن نواب مرزا
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/essam.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / عصام بن يحيى فيلالي
+
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/hashem.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / هاشم بن بكر حريري
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/abdullah.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / عبدالله بن عبد القادر عيد
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/nader.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / نادر بن عبد اللطيف الزنبقي
+
+										</h6>
+                                        </div>
                                 </div>
                             </div>
 							
-                           
+							
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/abulrahman.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / عبدالرحمن بن زيد السبيعي
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/abulraziz.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / عبدالعزيز بن زبن العطياني
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/khaleed.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / خالد بن قاسم السميري
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/hesham.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / هشام بن حسين باشا
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/ateya.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / عطية بن حاسن المالكي
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/ateya.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / عطية بن حاسن المالكي
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/saleh.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الدكتور / صالح بن علي با زيد
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
+							<div class="col-lg-2 col-md-6 col-sm-6">
+                                <div class="dez-box mb-3">
+                                    <div class="dez-media">
+										<img src="./assets/images/nasser.jpg" alt="">
+                                    </div>
+                                    <div class="pt-1">
+                                        <h6 class="dez-title mb-1 text-golden">الأستاذ / ناصر الدين بن حسن نصيف
+										</h6>
+                                        </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+				
 				</div>
 			</div>
-			<!-- Testimoniyal End -->
-			<!-- Client logo -->
-			<div class="section-full dez-we-find bg-img-fix p-t50 p-b50 ">
+			<div class="section-full dez-we-find bg-img-fix pt-5 ">
 				<div class="container">
-					<div class="section-content">
-						<div class="client-logo-carousel mfp-gallery owl-carousel gallery owl-btn-center-lr">
-							<div class="item">
-								<div class="ow-client-logo">
-									<div class="client-logo"><a href="#"><img src="images/client-logo/logo1.jpg"
-												alt=""></a></div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ow-client-logo">
-									<div class="client-logo"> <a href="#"><img src="images/client-logo/logo2.jpg"
-												alt=""></a> </div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ow-client-logo">
-									<div class="client-logo"> <a href="#"><img src="images/client-logo/logo1.jpg"
-												alt=""></a> </div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ow-client-logo">
-									<div class="client-logo"> <a href="#"><img src="images/client-logo/logo3.jpg"
-												alt=""></a> </div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ow-client-logo">
-									<div class="client-logo"> <a href="#"><img src="images/client-logo/logo4.jpg"
-												alt=""></a> </div>
-								</div>
-							</div>
-							<div class="item">
-								<div class="ow-client-logo">
-									<div class="client-logo"> <a href="#"><img src="images/client-logo/logo3.jpg"
-												alt=""></a> </div>
-								</div>
-							</div>
+					<div class="section-head text-center ">
+						<h2 class="text-uppercase"> الأخبار</h2>
+						<div class="dez-separator-outer ">
+							<div class="dez-separator bg-secondry style-skew"></div>
 						</div>
 					</div>
+					<div class="section-content">
+                        <div class="blog-carousel owl-carousel owl-btn-center-lr">
+                            <div class="item">
+                                <div class="ow-event-post date-style-2">
+                                    <div class="ow-event-media dez-img-effect zoom-slow"> <img src="./assets/images/agriculture_news.jpg" alt=""> </div>
+                                    <div class="ow-event-info ">
+                                        <div class="ow-event-title">
+                                            <h4 class="event-title"> <a href="#" title="">مجلس منطقة مكة المكرمة يبحث تفعيل مبادرة صندوق التنمية الزراعية </a> </h4>
+                                        </div>
+                                        <div class="ow-event-text">
+                                            <p>ناقش صاحب السمو الملكي الأمير خالد الفيصل أمير منطقة مكة المكرمة مع أعضاء مجلس المنطقة جدول الأعمال المتضمن محضر الاجتماع الحادي عشر للجنة المشاريع والمرافق المتضمن تفعيل مبادرة صندوق التنمية الزراعية</p>
+                                        </div>
+                                        <div class="ow-event-readmore "> <a href="#" title="READ MORE" rel="bookmark" class=" site-button-link"> المزيد <i class="fa fa-angle-double-down"></i></a> </div>
+                                        <div class="ow-event-meta">
+                                            <ul class="icon-list">
+                                                <li class="event-date"><i class="fa fa-calendar"></i>Sep 06, 2020 </li>
+                                                <li class="event-time"><i class="fa fa-clock-o"></i>11:52 AM</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          
+                            <div class="item">
+                                <div class="ow-event-post date-style-2">
+                                    <div class="ow-event-media dez-img-effect zoom-slow"> <img src="./assets/images/meeting_news.jpg" alt=""> </div>
+                                    <div class="ow-event-info ">
+                                        <div class="ow-event-title">
+                                            <h4 class="event-title"> <a href="#" title="">سمو الأمير خالد الفيصل يرأس اجتماعًا لرؤساء لجان مجلس منطقة مكة المكرمة
+											</a> </h4>
+                                        </div>
+                                        <div class="ow-event-text">
+                                            <p>رأس صاحب السمو الملكي الأمير خالد الفيصل ، مستشار خادم الحرمين الشريفين ، أمير منطقة مكة المكرمة ، بحضور صاحب السمو الملكي الأمير بدر بن سلطان بن عبدالعزيز ، نائب أمير منطقة مكة المكرمة</p>
+                                        </div>
+                                        <div class="ow-event-readmore "> <a href="#" title="READ MORE" rel="bookmark" class=" site-button-link"> المزيد <i class="fa fa-angle-double-down"></i></a> </div>
+                                        <div class="ow-event-meta">
+                                            <ul class="icon-list">
+                                                <li class="event-date"><i class="fa fa-calendar"></i>Sep 06, 2020 </li>
+                                                <li class="event-time"><i class="fa fa-clock-o"></i>11:52 AM</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+					
 				</div>
+				
 			</div>
-			<!-- Client logo END -->
+			
+			<div class="section-full dez-we-find bg-white ">
+				<div class="container">
+					<div class="py-5 bg-white">
+						<div class="section-head text-center">
+							<h2 class="text-uppercase">للتواصل</h2>
+							<div class="dez-separator-outer ">
+								<div class="dez-separator bg-primary style-icon radius-sm"><i class="fa fa-envelope-o"></i></div>
+							</div>
+							<p>
+								للتواصل وإبداء الملاحظات لأمانة مجلس المنطقة عبر البريد الإلكتروني
+								<span class="text-primary">majles@makkah.gov.sa</span>
+							</p>
+						</div>
+						<div class="section-content"></div>
+					</div>
+				
+					
+				</div>
+				
+			</div>
 		</div>
-		<!-- Content END-->
-		<!-- Footer -->
 		<footer class="site-footer">
 			<!-- newsletter part -->
-			<div class="p-a 30 bg-primary dez-newsletter overlay-primary-dark "
-				style="background-image: url(assets/images/background/bg4.jpg); background-attachment: fixed; position: relative; z-index: 1;">
+			<div class="bg-primary dez-newsletter overlay-primary-dark " style="background-image: url(assets/images/background/bg4.jpg); background-attachment: fixed; position: relative; z-index: 1;">
 				<div class="container equal-wraper">
 					<form class="dzSubscribe" action="script/mailchamp.php" method="post">
 						<div class="row">
 							<div class="col-md-4 col-lg-4">
-								<div class="icon-bx-wraper equal-col p-t30 p-b20 left">
-									<div class="icon-lg text-primary radius"> <a href="#" class="icon-cell"><i
-												class="fa fa-envelope-o"></i></a> </div>
-									<div class="icon-content"> <strong
-											class="text-golden text-uppercase font-18">خدمةالبريد الإلكتروني</strong>
-										<h6 class="dez-tilte text-uppercase">إشنرك ليصلك كل جديد</h6>
+								<div class="icon-bx-wraper equal-col py-4 left">
+									<div class="icon-lg text-primary radius"> <a href="#" class="icon-cell"><i class="fa fa-envelope-o"></i></a> </div>
+									<div class="icon-content"> <strong class="text-golden text-uppercase font-18">خدمةالبريد الإلكتروني</strong>
+										<h6 class="dez-tilte text-uppercase">إشنرك  ليصلك كل جديد</h6>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4 col-lg-4">
 								<div class="dzSubscribeMsg"></div>
-								<div class="input-group equal-col p-t40 p-b20">
-									<input name="dzEmail" required placeholder="Email address" required="required"
-										class="form-control" type="email">
+								<div class="input-group equal-col py-5">
+									<input name="dzEmail" required placeholder="Email address" required="required" class="form-control" type="email">
 								</div>
 							</div>
 							<div class="col-md-3 col-lg-3 offset-lg-1 offset-md-1">
-								<div class="equal-col p-t40 p-b20 skew-subscribe">
-									<button name="submit" value="Submit" type="submit"
-										class="site-button-secondry button-skew z-index1">
-										<span>إشترك</span><i class="fa fa-angle-right"></i>
+								<div class="equal-col py-5 skew-subscribe">
+									<button name="submit" value="Submit" type="submit" class="site-button-secondry button-skew z-index1"> 
+										<span>إشترك</span><i class="fa fa-angle-right"></i> 
 									</button>
 								</div>
 							</div>
@@ -1040,58 +1148,47 @@
 			<div class="footer-top">
 				<div class="container">
 					<div class="row">
-
-
 						<div class="col-lg-4 col-md-4 col-sm-4 footer-col-4 d-flex justify-content-center">
 							<div class="widget widget_getintuch">
-
+							   
 								<ul>
-									<li><i class="fa fa-map-marker"></i><strong>العنوان</strong> شارع الأمير ماجد بن
-										عبدالعزيز - مكة المكرمة </li>
-									<li style="direction: ltr"><i class="fa fa-phone"></i><strong>الهاتف</strong> +966
-										012 572 2727</li>
-									<li><i class="fa fa-envelope"></i><strong>البريد
-											الالكتروني</strong>info@makkah.gov.sa</li>
+									<li><i class="fa fa-map-marker"></i><strong>العنوان</strong> شارع الأمير ماجد بن عبدالعزيز - مكة المكرمة </li>
+									<li style="direction: ltr"><i class="fa fa-phone"></i><strong>الهاتف</strong> +966 012 572 2727</li>
+									<li><i class="fa fa-envelope"></i><strong>البريد الالكتروني</strong>info@makkah.gov.sa</li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-4 footer-col-4 d-flex justify-content-center">
-							<a href="https://itunes.apple.com/US/app/id897919213?mt=8" target="_blank">
-								<img alt="IOS store Image" src="assets/images/appleStore.png" class="img-fluid">
-							</a>
-							<a href="https://play.google.com/store/apps/details?id=sa.gov.makkah.emirates"
-								target="_blank">
-								<img alt="google play image" src="assets/images/googlePlay.png" class="img-fluid">
-							</a>
+						<a href="https://itunes.apple.com/US/app/id897919213?mt=8" target="_blank">
+							<img alt="IOS store Image" src="assets/images/appleStore.png" class="img-fluid">
+						</a>
+						<a href="https://play.google.com/store/apps/details?id=sa.gov.makkah.emirates" target="_blank">
+							<img alt="google play image" src="assets/images/googlePlay.png" class="img-fluid">
+						</a>
 						</div>
-
 						<div class="col-lg-4 col-md-4 col-sm-4 footer-col-4 d-flex justify-content-center">
 							<div class="widget widget_services">
-
 								<ul>
 									<li><a href="services-2.html"> سياسة الخصوصية </a></li>
 									<li><a href="services-2.html"> سياسة الإستخدام وإخلاء المسؤولية </a></li>
 								</ul>
 							</div>
 						</div>
-
+						
 					</div>
 				</div>
 			</div>
-			<!-- footer bottom part -->
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-4 col-md-4 text-center m-auto">
-							<span> جميع الحقوق محفوظة لإمارة منطقة مكة المكرمة 2021 ©</span>
+							<span> جميع الحقوق محفوظة لإمارة منطقة مكة المكرمة 2021 ©</span> 
 						</div>
-
+						
 					</div>
 				</div>
 			</div>
 		</footer>
-		<!-- Footer END-->
-		<!-- scroll top button -->
 		<button class="scroltop fa fa-arrow-up style4" style="display: inline-block;"></button>
 	</div>
 	<!-- JavaScript  files ========================================= -->
@@ -1111,6 +1208,6 @@
 	<script src="assets/js/custom.min.js"></script><!-- CUSTOM FUCTIONS  -->
 	<script src="assets/js/dz.carousel.min.js"></script><!-- SORTCODE FUCTIONS  -->
 	<script src="assets/js/dz.ajax.js"></script><!-- CONTACT JS  -->
-</body>
-
-</html>
+	</body>
+	</html>
+	

@@ -1020,7 +1020,7 @@ dl dd {
   color: red;
 }
 .text-green {
-  color: #090;
+  color: #3e9975;
 }
 .text-yellow {
   color: #ff0;
@@ -1047,7 +1047,7 @@ dl dd {
   background-color: #ff4045;
 }
 .bg-green {
-  background-color: #38e225;
+  background-color: #3e9975;
 }
 .bg-yellow {
   background-color: #f0f52e;
@@ -1564,11 +1564,13 @@ label {
 }
 .input-group .form-control,
 .input-group-btn,
-.input-group-prepend {
-  display: table-cell;
+.input-group-prepend,
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   border: 1px solid #ced4da;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  height: 42px;
+
 }
 .input-group-prepend {
   background: #fff;
@@ -1599,6 +1601,9 @@ label {
   height: 40px;
   font-size: 13px;
   color: #999;
+}
+button, select {
+  line-height: 30px !important;
 }
 .bootstrap-select .dropdown-toggle:after {
   display: none;
@@ -5308,7 +5313,7 @@ a {
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus,
 .site-button-link.yellow:hover {
-  color: ##d4af19;
+  color: #d4af19;
 }
 .site-button-link.purple {
   color: #ae1af7;
@@ -7673,7 +7678,6 @@ footer .widget_services ul li a {
 }
 footer .widget_getintuch i {
   background-color: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .footer-top {
   background: #0d4e34;
