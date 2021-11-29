@@ -3209,7 +3209,7 @@ blockquote:before {
   }
 }
 .dez-bnr-inr {
-  height: 300px;
+  height: 120px;
   background-size: cover;
   background-position: center center;
   display: table;
@@ -4535,7 +4535,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
   padding-top: 10px;
 }
 .widget_getintuch li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
   padding-left: 40px;
   color: whitesmoke;
