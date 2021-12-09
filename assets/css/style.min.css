@@ -7463,7 +7463,7 @@ a {
 }
 .dez-media,
 .dez-post-media {
-  background-color: #fff;
+  /* background-color: #fff; */
   position: relative;
 }
 .dez-media img,
