@@ -9034,3 +9034,27 @@ ol.commentlist li .star-rating {
 .at-expanding-share-button[data-position="bottom-left"] {
   bottom: 130px !important;
 }
+#image-map-container {
+  display: inline-block;
+  border: 2px solid #DDD;
+  padding: 2px;
+  border-radius: 3px;
+  max-width: 100%;
+}
+.image-mapper-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* map area */
+img[usemap] {
+  border: none;
+  height: auto !important;
+  max-width: 100% !important;
+  width: auto !important;
+}
