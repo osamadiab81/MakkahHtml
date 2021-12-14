@@ -75,12 +75,17 @@ body{
 	right:15px;
 	top: 5px;
 }
-.widget_categories li {
-	text-align: left;
+.dez-bnr-inr-entry {
+	text-align: right;
+  }
+.widget_categories li,
+.widget .post-title,
+.widget .widget-title {
+	text-align: right;
 }
-.widget_categories li a {
+/* .widget_categories li a {
     float: right;
-}
+} */
 .bootstrap-select.btn-group .dropdown-toggle .filter-option{
 	text-align:right;
 }
