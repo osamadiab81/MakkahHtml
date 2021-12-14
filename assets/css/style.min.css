@@ -4720,7 +4720,8 @@ a {
 .site-button,
 .site-button-secondry {
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px;
+  line-height: normal !important;
   display: inline-block;
   font-size: 14px;
   outline: 0;
