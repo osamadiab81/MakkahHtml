@@ -931,6 +931,9 @@
 .dez-form .form-group {
   margin-bottom: 15px;
 }
+.flex-1 {
+  min-height: 250px;
+}
 @media only screen and (max-width: 991px) {
   .dez-coming-soon.two-box,
   .dez-coming-soon.two-box .dez-coming-bx {
